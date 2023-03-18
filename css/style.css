@@ -1863,3 +1863,15 @@ ol {
 	color: #fff;
 	margin-bottom: 5%;
 }
+
+.page-logo{
+	color:#dde2eb; 
+	font-size:large;
+}
+
+
+@media (min-width: 300px) and (max-width: 500px){
+	.page-logo{
+		color: #184896;
+	}
+}
