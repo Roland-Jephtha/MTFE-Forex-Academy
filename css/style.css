@@ -1893,11 +1893,69 @@ ol {
 	margin-left: 7%;
 }
 
+a[name= "management"]{
+	width: 30%;
+	/* font-size: 70% */
+}
+#drop-down{
+	margin-right: 40%;
+}
 
+
+.laptop{
+	width: 70%;
+}
+
+#account:hover{
+	color:#9bb0f0
+}
+
+
+.acad:hover{
+	color:#637bc0
+}
+
+@media (min-width: 300px) and (max-width: 1000px){
+
+	#account{
+		font-size: 40px;
+		padding-bottom: 2em;
+	}
+
+	.acad{
+
+		font-size: 40px;
+
+	}
+
+}
 @media (min-width: 300px) and (max-width: 500px){
 	#mission{
 		margin-top: -15%;
 		margin-left: 0%;
+	}
+
+	#drop-down{
+		margin-right: 20%;
+	}
+
+	#account{
+		font-size: 40px;
+		padding-bottom: 2em;
+	}
+
+	.acad{
+
+		font-size: 40px;
+
+	}
+
+	a[name= "management"]{
+		width: 90%;
+		padding-bottom: 8em;
+		
+
+
 	}
 }
 
@@ -1924,8 +1982,9 @@ ol {
 }
 
 
+
 #drop{
-	font-size: 40px;
+	font-size: 40%;
 }
 
 
@@ -2045,6 +2104,8 @@ ol {
 		margin-left: 20%;
 		width: 200px;
 	}
+
+
 
 
 
