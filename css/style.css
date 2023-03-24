@@ -1837,16 +1837,18 @@ ol {
 
 
 #laptop{
-	width: 30em;  
+	width: 40em;  
 	margin-bottom: 10%; 
-	margin-left: 30%;
+	border-radius: 10px;
+	/* margin-left: 5%; */
 }
 
 @media (min-width: 300px) and (max-width: 500px){
 	#laptop {
 		margin-top: 7%;
-		width: 17em;
-		margin-left: 5%;
+		width: 20em;
+		margin-left: 1%;
+		border-radius: 5px;
 	}
 }
 
@@ -1903,29 +1905,56 @@ ol {
 #drop-down{
 	padding: 15px 15px;
 	padding-right: 0px;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 500;
 	line-height: 16px;
 	border-radius: 20px;
 	font-family: "Futura", sans-serif;
 	min-width: 170px;
 	text-align: center;
-	border: 3px solid #0658dd;;
+	/* border: 3px solid #0658dd;; */
 	cursor: pointer;
 	color: 	 #0658dd;;
 
 	margin-bottom: 5%;
 	/* background-color: rgb(6, 43, 43); */
 	margin-left: 35%;
-	width: 25%;
+	/* width: 25%; */
 	
 }
 
-#drop-down:hover{
-	background-color: #184896;
-	color: white;
+
+#drop{
+	font-size: 40px;
 }
 
+
+
+
+
+#drop:hover{
+	color: #487cd1;
+}
+
+
+#drop-down:hover{
+	/* background-color: #184896; */
+	color: #141518;
+}
+
+#academy-body{
+	margin-right: 30%;
+}
+
+#basic{
+	width: 9em;
+	font-size: 30px;
+}
+#advance{
+	width: 9em;
+	font-size: 30px;
+	margin-left: 30px;
+}
 
 
 #drop-icon{
@@ -2029,7 +2058,7 @@ ol {
 		font-family: "Futura", sans-serif;
 		min-width: 170px;
 		text-align: center;
-		border: 3px solid #0658dd;;
+		/* border: 3px solid #0658dd;; */
 		cursor: pointer;
 		color: 	 #0658dd;;
 	
