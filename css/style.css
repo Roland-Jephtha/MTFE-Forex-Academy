@@ -1837,11 +1837,20 @@ ol {
 
 
 #laptop{
-	width: 40em;  
+	width: 70%;  
 	margin-bottom: 10%; 
 	border-radius: 10px;
 	/* margin-left: 5%; */
 }
+
+.image{
+	width: 1.2em
+}
+
+#training{
+	width: 50%; 
+}
+
 
 @media (min-width: 300px) and (max-width: 500px){
 	#laptop {
@@ -1850,7 +1859,23 @@ ol {
 		margin-left: 1%;
 		border-radius: 5px;
 	}
+
+
+	#training{
+		width: 20em;
+	}
+
+
+	.image{
+		width: 0.6em;
+		
+	}
 }
+
+
+
+
+
 
 .page-btn{
 	padding: 15px 30px;
@@ -1915,11 +1940,17 @@ a[name= "management"]{
 	color:#637bc0
 }
 
+
+#forex{
+	margin-left: -40%;
+}
+
+
 @media (min-width: 300px) and (max-width: 1000px){
 
 	#account{
 		font-size: 40px;
-		padding-bottom: 2em;
+		padding-bottom: 1em;
 	}
 
 	.acad{
@@ -1927,6 +1958,13 @@ a[name= "management"]{
 		font-size: 40px;
 
 	}
+
+
+	
+	#forex{
+		margin-left: 0%;
+	}
+
 
 }
 @media (min-width: 300px) and (max-width: 500px){
@@ -1941,7 +1979,7 @@ a[name= "management"]{
 
 	#account{
 		font-size: 40px;
-		padding-bottom: 2em;
+		padding-bottom: 0.1em;
 	}
 
 	.acad{
